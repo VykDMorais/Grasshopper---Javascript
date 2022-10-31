@@ -1,0 +1,26 @@
+//Data Types, variables & constants, 
+// BigInt value (n no final)
+const value1 = 900719925124740998n;
+const result1 = `os valores são ${value1 + 1n}`;
+console.log(result1); // "900719925124740999n"
+
+var name = "eu" // uma variavel pode ser declarada com var ou com let
+var name2 = "voce"
+const dois = `os nomes são ${name} e ${name2}`
+console.log (dois)
+console.log ("Os nomes são: " + name + " " + name2)
+
+const number = null // nao conheco
+let N_define =  undefined // não definido
+
+const dataChecked = true; // booleanas
+const valueCounted = false;
+
+const nome = Symbol("hello wolrd")
+//Object - precisa da v´rigula entre os termos. JS n precisa ponto e vírgula, mas pode
+const student = {
+    firstName: 'ram',
+    lastName: "boco",
+    class: 10
+}
+console.log (student.lastName)
